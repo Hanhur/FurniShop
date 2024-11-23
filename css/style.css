@@ -184,6 +184,10 @@ body
     display: flex;
     gap: 0 100px;
 }
+.home-img
+{
+    border-radius: 5px;
+}
 .home-block
 {
     display: flex;
@@ -233,6 +237,12 @@ body
 {
     display: flex;
     gap: 0 70px;
+}
+.store-block
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .store-title
 {
@@ -324,5 +334,9 @@ body
 {
     font-size: 20px;
     width: 570px;
+}
+.furniture-img
+{
+    border-radius: 5px;
 }
 /* ============================================================= */
