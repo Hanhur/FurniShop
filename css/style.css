@@ -454,11 +454,67 @@ body
     background-color: var(--White);
     cursor: pointer;
 }
-
+.people-right:hover
+{
+    background-color: var(--Green);
+}
 .people-left
 {
     padding: 13px;
     border-radius: 50px;
     background-color: var(--Green);
     cursor: pointer;
+}
+.people-left:hover
+{
+    background-color: var(--Green);
+}
+/* =============================================== */
+.section-discount
+{
+    background-image: url(../images/discount.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    padding: 100px 122px 142px 800px;
+}
+.discount-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--White);
+    width: 355px;
+    margin-bottom: 20px;
+}
+.discount-text
+{
+    font-size: 20px;
+    line-height: 1;
+    color: var(--White);
+    width: 176px;
+    margin-bottom: 40px;
+}
+.discount-form
+{
+    display: flex;
+    gap: 0 22px;
+}
+.discount-input
+{
+    border-radius: 8px;
+    padding: 22px 24px;
+    width: 385px;
+}
+.discount-btn
+{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    color: var(--White);
+    border-radius: 8px;
+    padding: 20px 28px;
+    background-color: var(--Black);
 }
